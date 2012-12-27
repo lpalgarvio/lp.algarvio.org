@@ -1,0 +1,16 @@
+.background {
+  background: #8b0002;
+  background-image: url(/images/230192_1689210839479_1513950363_31355859_6309682_n.jpg);
+  background-repeat: no-repeat;
+  background-position: center 70px;
+}
+.text, h1 {
+  color: #ffffff;
+}
+ol, ul, li {
+  color: #ffffff;
+}
+a:link {color: #e8ac00;}
+a:visited {color: #e8ac00;}
+a:hover {color: #ffffff;}
+a:active {color: #e8ac00;}
