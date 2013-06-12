@@ -1,15 +1,56 @@
 
 /*
- * Regions 
+ * Defaults 
  */
 
 body {
-  /*background-image: url(/images/_DSC2239_0400px_rect.jpg);
-  background-repeat: no-repeat;
-  background-position: center 70px;*/
-  background: #000000;
-  color: #ffffff;
+	/*background-image: url(/images/_DSC2239_0400px_rect.jpg);
+	background-repeat: no-repeat;
+	background-position: center 70px;*/
+	background: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 100%;
+	font-size: 12px;
+	color: #ffffff;
 }
+
+/* Hyperlinks */
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #ffffff;
+}
+a:visited {
+	color: #ffffff;
+}
+a:hover {
+	color: #2b82ad;
+}
+a:active {
+	color: #2b82ad;
+}
+
+/* Lists */
+ol, ul, li {
+	color: #ffffff;
+}
+
+/* Panes */
+.pane-title {
+	font-weight: normal;
+	font-size: 14px;
+	color: #ffffff;
+}
+.pane-content {
+	color: #ffffff;
+}
+
+
+/*
+ * Regions 
+ */
 
 #header {
 	clear: both;
@@ -35,40 +76,7 @@ body {
 #footer {
 	clear: both;
 	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-
-/*
- * Defaults 
- */
-
-/* Panes */
-.pane-title {
-	font-weight: bold;
-	color: #ffffff;
-}
-.pane-content {
-	color: #ffffff;
-}
-
-/* Lists */
-ol, ul, li {
-	color: #ffffff;
-}
-
-/* Hyperlinks */
-a:link {
-	color: #e8ac00;
-}
-a:visited {
-	color: #e8ac00;
-}
-a:hover {
-	color: #ffffff;
-}
-a:active {
-	color: #e8ac00;
+	padding-bottom: 10px;
 }
 
 
@@ -78,20 +86,61 @@ a:active {
 
 /* Intro Block */
 #intro {
+	margin: 0 10px 0 10px;
 }
 #intro .pane-title {
+	display: none;
 }
 #intro .pane-content {
+	font-size: 14px;
+	color: #e8e7df;
 }
 
 /* About.me Block */
 #aboutme {
 }
 #aboutme .pane-title {
+	display: none;
 }
 #aboutme .pane-content {
 }
-
+#aboutme .aboutme-embed {
+	background: none !important;
+}
+#aboutme .aboutme-img img {
+	border-radius: 15px !important;
+}
+#aboutme .aboutme-text {
+}
+#aboutme .aboutme-text .aboutme-name {
+	font-family: 'Lusitana', serif !important;
+	font-weight: normal !important;
+	font-size: 50px !important;
+	color: #2b82ad !important;
+}
+#aboutme .aboutme-text .aboutme-headline {
+	font-family: 'Quicksand', sans-serif !important;
+	font-weight: bold !important;
+	font-size: 24px !important;
+	color: #ffffff !important;
+}
+#aboutme .aboutme-text .aboutme-bio {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: normal !important;
+	font-size: 12px !important;
+	color: #e8e7df !important;
+}
+#aboutme .aboutme-text .aboutme-apps {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: normal !important;
+	font-size: 14px !important;
+	color: #ffffff !important;
+}
+#aboutme .aboutme-apps {
+}
+#aboutme .aboutme-apps a:hover {
+	box-shadow: 0px 0px 3px 1px #2b82ad !important;
+}
 
 /* Links Block */
 #links {
@@ -107,25 +156,52 @@ a:active {
 .links-row {
 	margin: 10px 10px 10px 10px;
 }
-.links-row-title,
+.links-row-title {
+	font-weight: bold;
+	color: #2b82ad;
+}
 .links-row-content {
 }
 
 /* Skills Block */
 #skills {
-	float: right;
+	float: left;
+	margin-left: 40px;
 }
 #skills .pane-title {
 }
 #skills .pane-content {
 }
 
+/* Portrait Block */
+#portrait {
+	float: right;
+	margin-right: 10px;
+}
+#portrait .pane-title {
+}
+#portrait .pane-content {
+}
+#portrait .pane-content img {
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px 2px #2b82ad;
+}
+#portrait .pane-content img:hover {
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px 5px #2b82ad;
+}
+
 /* Credits Block */
 #credits {
-	margin: 20px;
+	margin: 10px;
 }
 #credits .pane-title {
+	display: none;
 }
 #credits .pane-content {
+	font-family: 'Lusitana', serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #2b82ad;
 	text-align: center;
 }
