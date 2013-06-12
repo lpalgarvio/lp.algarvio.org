@@ -1,16 +1,131 @@
-.background {
-  background: black;
-  background-image: url(/images/_DSC2239_0400px_rect.jpg);
+
+/*
+ * Regions 
+ */
+
+body {
+  /*background-image: url(/images/_DSC2239_0400px_rect.jpg);
   background-repeat: no-repeat;
-  background-position: center 70px;
-}
-.text, h1 {
+  background-position: center 70px;*/
+  background: #000000;
   color: #ffffff;
 }
+
+#header {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+#highlights {
+}
+
+#content {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+
+#footer {
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/*
+ * Defaults 
+ */
+
+/* Panes */
+.pane-title {
+	font-weight: bold;
+	color: #ffffff;
+}
+.pane-content {
+	color: #ffffff;
+}
+
+/* Lists */
 ol, ul, li {
-  color: #ffffff;
+	color: #ffffff;
 }
-a:link {color: #e8ac00;}
-a:visited {color: #e8ac00;}
-a:hover {color: #ffffff;}
-a:active {color: #e8ac00;}
+
+/* Hyperlinks */
+a:link {
+	color: #e8ac00;
+}
+a:visited {
+	color: #e8ac00;
+}
+a:hover {
+	color: #ffffff;
+}
+a:active {
+	color: #e8ac00;
+}
+
+
+/*
+ * Blocks 
+ */
+
+/* Intro Block */
+#intro {
+}
+#intro .pane-title {
+}
+#intro .pane-content {
+}
+
+/* About.me Block */
+#aboutme {
+}
+#aboutme .pane-title {
+}
+#aboutme .pane-content {
+}
+
+
+/* Links Block */
+#links {
+	float: left;
+}
+#links .pane-title {
+}
+#links .pane-content {
+}
+.links-column {
+	float: left;
+}
+.links-row {
+	margin: 10px 10px 10px 10px;
+}
+.links-row-title,
+.links-row-content {
+}
+
+/* Skills Block */
+#skills {
+	float: right;
+}
+#skills .pane-title {
+}
+#skills .pane-content {
+}
+
+/* Credits Block */
+#credits {
+	margin: 20px;
+}
+#credits .pane-title {
+}
+#credits .pane-content {
+	text-align: center;
+}
