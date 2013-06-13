@@ -4,6 +4,11 @@
  */
 
 body {
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 1333px;
 	/*background-image: url(/images/_DSC2239_0400px_rect.jpg);
 	background-repeat: no-repeat;
 	background-position: center 70px;*/
@@ -145,6 +150,8 @@ ol, ul, li {
 /* Links Block */
 #links {
 	float: left;
+	margin: 0;
+	width: 550px;
 }
 #links .pane-title {
 }
@@ -163,20 +170,12 @@ ol, ul, li {
 .links-row-content {
 }
 
-/* Skills Block */
-#skills {
-	float: left;
-	margin-left: 40px;
-}
-#skills .pane-title {
-}
-#skills .pane-content {
-}
-
 /* Portrait Block */
 #portrait {
 	float: right;
+	margin: 0;
 	margin-right: 10px;
+	width: 270px;
 }
 #portrait .pane-title {
 }
@@ -189,6 +188,16 @@ ol, ul, li {
 #portrait .pane-content img:hover {
 	border-radius: 5px;
 	box-shadow: 0px 0px 20px 5px #2b82ad;
+}
+
+/* Skills Block */
+#skills {
+	margin: 0 280px 0 550px;
+	width: auto;
+}
+#skills .pane-title {
+}
+#skills .pane-content {
 }
 
 /* Credits Block */
